@@ -24,16 +24,21 @@
         Our low-volume newsletter includes notifications of key dates. Subscribe to be notified when talk
         submissions, sponsor applications, or ticket sales are available. 
     </p>
+    <form
+    action="https://buttondown.com/api/emails/embed-subscribe/northbaypython"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/northbaypython', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <label for="bd-email">Enter your email</label>
+    <input type="email" name="email" id="bd-email" />
+    
+    <input type="submit" value="Subscribe" />
     <p>
-        <form action="https://tinyletter.com/northbaypython" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/northbaypython', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-            <label for="tlemail">Enter your email address: </label>
-            <input type="text" style="width:140px" name="email" id="tlemail" />
-            <input type="hidden" value="1" name="embed"/>
-            <input type="submit" value="Subscribe" />
-        </form>
+      Our newsletter is <a href="https://buttondown.com/refer/northbaypython" target="_blank">Powered by Buttondown.</a>
     </p>
-
-    <p>Our newsletter is <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>.</p>
+  </form>
 
     <h3>Follow us on Social Media</h3>
     <p>Our social media includes information about key dates, and also photos of our venue's barn cats.</p>
